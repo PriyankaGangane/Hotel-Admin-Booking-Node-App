@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
+<<<<<<< HEAD
     
+=======
+>>>>>>> origin/main
   },
   "type": "module",
   "keywords": [],
