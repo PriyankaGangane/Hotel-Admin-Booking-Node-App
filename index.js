@@ -197,7 +197,7 @@ app.use(express.json());
 // Connect to MongoDB
 mongoose
   .connect(
-    `mongodb://reactapp:8UtIpPOyAvjQxjFq9ohHYImgeltEkaM5SRC5jth2xFLKJUcic2jVQklo3GGuM4DDTij4eW9xsXyoACDbJaOz9g==@reactapp.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@reactapp@`
+    `mongodb://reactapp:8UtIpPOyAvjQxjFq9ohHYImgeltEkaM5SRC5jth2xFLKJUcic2jVQklo3GGuM4DDTij4eW9xsXyoACDbJaOz9g==@reactapp.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@reactapp@`,
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
