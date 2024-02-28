@@ -197,12 +197,8 @@ app.use(express.json());
 // Connect to MongoDB
 mongoose
   .connect(
-    `mongodb://${process.env.COSMOSDB_HOST}:${process.env.COSMOSDB_PORT}/${process.env.COSMOSDB_DBNAME}?ssl=true&replicaSet=globaldb`,
+    `mongodb://reactapp:8UtIpPOyAvjQxjFq9ohHYImgeltEkaM5SRC5jth2xFLKJUcic2jVQklo3GGuM4DDTij4eW9xsXyoACDbJaOz9g==@reactapp.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@reactapp@`
     {
-      auth: {
-        username: process.env.COSMOSDB_USER,
-        password: process.env.COSMOSDB_PASSWORD,
-      },
       useNewUrlParser: true,
       useUnifiedTopology: true,
       retryWrites: false,
