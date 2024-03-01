@@ -1,5 +1,3 @@
-// controllers/hotelRoomBookingController.js
-
 import HotelRoomBooking from "../Model/HotelRoomBooking.js";
 
 export const createBooking = async (req, res) => {

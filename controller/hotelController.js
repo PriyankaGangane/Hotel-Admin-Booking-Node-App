@@ -50,18 +50,6 @@ export const updateHotel = async (req, res) => {
   }
 };
 
-// Delete a hotel
-// export const deleteHotel = async (req, res) => {
-//   try {
-//     const hotel = await Hotel.findByIdAndDelete(req.params.id);
-//     if (!hotel) {
-//       return res.status(404).json({ message: "Hotel not found" });
-//     }
-//     res.status(204).send();
-//   } catch (error) {
-//     res.status(500).json({ message: error.message });
-//   }
-// };
 
 export const deleteHotel = async (req, res) => {
   try {
