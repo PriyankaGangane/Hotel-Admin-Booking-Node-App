@@ -1,6 +1,7 @@
 import express from "express";
 import mongoose from "mongoose";
 import dotenv from "dotenv";
+import cors from "cors"
 import authRoutes from "./Routes/authRoutes.js";
 import hotelRoutes from "./Routes/hotelRoutes.js";
 import bookingRoutes from "./Routes/bookingRoutes.js";
